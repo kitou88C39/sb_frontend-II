@@ -87,6 +87,12 @@
 
 					</execution>
 				</executions>
+
+				<configuration>
+					<nodeVersion>v16.15.0</nodeVersion>
+					<workingDirectory>src/main/frontend</workingDirectory>
+				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
