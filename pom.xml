@@ -63,11 +63,16 @@
 					</execution>
 
 					<!-- running npm installing -->
-					
 					<execution>
-
+						<id>npm install</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<phase>generate-resource</phase>
+						<configuration>
+							<arguments>install</arguments>
+						</configuration>
 					</execution>
-
 				</executions>
 			</plugin>
 		</plugins>
