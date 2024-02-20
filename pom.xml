@@ -73,6 +73,19 @@
 							<arguments>install</arguments>
 						</configuration>
 					</execution>
+
+					<!-- build our production version -->
+					<execution>
+						<id>npm build</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<phase>generate-resources</phase>
+							<configuration>
+								<arguments>run build</arguments>
+							</configuration>
+
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
